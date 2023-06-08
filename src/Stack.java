@@ -5,6 +5,7 @@ public interface Stack<E extends Cloneable> extends Iterable<E>, Cloneable {
     int size();
     boolean isEmpty();
     Stack<E> clone();
+
 }
 
 
