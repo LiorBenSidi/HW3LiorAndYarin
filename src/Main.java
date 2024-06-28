@@ -6,6 +6,7 @@ import java.util.Set;
 class MyCloneable implements Cloneable {
     private int num;
 
+
     public MyCloneable(int num) {
         this.num = num;
     }
